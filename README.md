@@ -1294,69 +1294,16 @@ Welcome to the Robotics and ROS Course Repository! This repository contains cour
             4. **Temporal-Difference Methods**
             - Learn about temporal-difference methods and their significance in reinforcement learning.
 
+## Author
 
-****--------******------------------
+- **H.M. Mehedi Hasan (Badhon)**
 
+![85755347](https://github.com/hm-badhon/Natural_Language_Processing_NLP_with_hmb/assets/85755347/1c4c9b08-71fe-463d-8117-cc2b23acb3d9)
 
-
---------------------***********----------------******------------------------------***
-
--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-
------------------*************************************************--------------------------------
-
+  - [GitHub Profile](https://github.com/hm-badhon)
+  - [LinkedIn Profile](https://bd.linkedin.com/in/h-m-mehedi-hasan-575563159)
+  - [Email](mailto:h.m.badhoneee@gmail.com)
+  - Associate Robotics Engineer, NSL
+    
 
 
-
-)
-
-
-
-
-
-### 9. Robot Creation
-- **Overview:** Hands-on course on designing and building robots.
-- **Materials:** [Robot Creation Course Materials](link)
-
-### 10. Artificial Intelligence
-- **Overview:** Integration of AI techniques in robotics.
-- **Materials:** [AI in Robotics Course Materials](link)
-
-### 11. ROS Debugging Tools
-- **Overview:** Tools and techniques for debugging and troubleshooting in ROS.
-- **Materials:** [ROS Debugging Tools Course Materials](link)
-
-### 12. Course Of Product
-- **Overview:** Building a complete robotic product from concept to deployment.
-- **Materials:** [Product Course Materials](link)
-
-### 13. Web Development for Robots
-- **Overview:** Integrating web development skills with robotics.
-- **Materials:** [Web Development for Robots Course Materials](link)
-
-### 14. Simulations
-- **Overview:** Introduction to robot simulations using tools like Gazebo.
-- **Materials:** [Simulations Course Materials](link)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## How to Use
-1. Clone this repository.
-2. Navigate to the specific course folder.
-3. Access the course materials, including lectures, slides, and code samples.
-
-## Contribution Guidelines
-- Contributions are welcome! Follow the standard contribution guidelines outlined in [CONTRIBUTING.md](link).
