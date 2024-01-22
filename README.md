@@ -542,49 +542,757 @@ Welcome to the Robotics and ROS Course Repository! This repository contains cour
 
 
 - # 3| Basic Theory
-    
+    - ## Robot Control Basics
+        This course includes teaching the fundamental bases of control applied in robotics, starting from different control laws and applying different control methods to optimize the output of our systems. Using experimental results gain insights about the influence of each term within a PID controller.
 
-
-    - ## ROS2 Navigation environment & parameter setup
-
-
-        Take a deep dive into more advanced ROS2 learning topics with our Advanced ROS2 Learning Topics course. This program is designed to provide an in-depth understanding of advanced ROS2 concepts, including the ROS2 Build System, advanced launch files, XML and YAML launch files, node parameters, managing complex nodes, Quality of Service, and an exploration of DDS in ROS2.
-        - [Link to Course](https://app.theconstructsim.com/courses/113)
-        - Time Duration - 9 Hours
+        - [Link to Course](https://app.theconstructsim.com/courses/128)
+        - Time Duration - 18 Hours
 
         ## Course Summary
 
-        1. **Introduction**- Overview of the course objectives and structure.
+        1. **Introduction**- An Introduction to the course.
 
-        2. **ROS2 Build System**- Deep dive into the ROS2 Build System for advanced development.
+        2. **PID control**- Get familiar with Proportional-Integral-Derivative PID control basics..
 
-        3. **Advanced Launch Files**- Explore advanced techniques for creating launch files in ROS2.
+        3. **Independent joint control**- We focus on controlling only one joint at a time, independent of the rest..
 
-        4. **XML and YAML Launch Files**- Understanding and working with XML and YAML launch files in ROS2.
+        4. **Multivariable control**- Learn how to construct and analyse a multivariable dynamic system and how to design an appropriate controller for it.
 
-        5. **Node Parameters**- Master the utilization of node parameters in ROS2.
+        5. **Force control**- Apply a desired end-effector force based on feedback from the force sensor.
 
-        6. **Managing Complex Nodes**- Strategies for managing complexity in ROS2 nodes.
+        6. **Final project**- Apply your knowledge with a guided project that makes use of inverse dynamics and inverse kinematics..
 
-        7. **Quality of Service**- Understanding and implementing Quality of Service in ROS2.
-
-        8. **Understanding DDS in ROS2**- A comprehensive exploration of DDS in ROS2, how to modify it, and working with QoS.
-
-        9. **Lifecycle Nodes**- In-depth coverage of Lifecycle Nodes in ROS2.
-
-        10. **Course Project**
-            - Application of learned concepts in a hands-on course project.
 
             ### What You Will Learn
 
             Upon completing this course, you will acquire advanced skills in:
 
-            - Creating different types of launch files in ROS2.
-            - Working with parameters in ROS2.
-            - Threading in ROS2 for improved performance.
-            - Managing callbacks effectively in ROS2.
-            - Understanding and implementing Quality 
+            - Get familiar with Proportional-Integral-Derivative PID control basics.
+            - Learn how to generate a trajectory through a given set of two or more joint positions.
+            - Learn about multivariable controllers including inverse dynamics and test their response to a sinusoidal set point.
+            - Learn how to apply a desired end-effector force based on feedback from a force sensor.
 
+    - ## Robot Dynamics and Control
+
+        Robot Dynamics is really important since it will give you a complete understanding not only of how the robots move (kinematics) but also WHY they move (dynamics). In this course, you will learn to develop the dynamics models of basic robotic systems, as well as create intelligent controllers for them.
+
+        - [Link to Course](https://app.theconstructsim.com/courses/128)
+        - Time Duration - 18 Hours
+
+        ## Course Summary
+
+        1. **Introduction**-This unit presents the objectives of this course on dynamics for robot manipulators, and the learning methods and tools..
+
+        2. **Rigid Body Dynamics**- In this Unit you will learn how to solve for the motion of rigid bodies in 3D space with the use of Newton's laws of motion..
+
+        3. **Dynamic Modeling**- In this Unit you will learn how to model the dynamics of a simple robotic system and how to derive its equations of motion.
+
+        4. **Feedback Control**-In this unit, we will create a full state feedback controller for allowing the robot to balance.
+
+        5. **Project. Ball Kicking**- In this project you are going to program a simple dynamic controller for the RRBot arm that will move the robot for kicking a ball on the floor.
+
+
+            ### What You Will Learn
+
+            Upon completing this course, you will acquire advanced skills in:
+
+            - How to solve the dynamics for the motion of rigid bodies in 3D space with the use of Newton’s laws of motion
+
+            - Learn how to generate a trajectory through a given set of two or more joint positions.
+            - How to model the dynamics of a simple robotic system and how to derive its equations of motion.
+            - How to create a full state feedback controller to allow a robotic system to balance.
+
+
+
+
+    - ## Basic Kinematics of Mobile Robots
+
+        The aim of the course is to provide you with the concepts and tools for controlling a mobile robot along a pre-defined path. This is the cornerstone of robot mobility, as it can be later expanded with the addition of external sensors in other courses.
+
+
+        - [Link to Course](https://app.theconstructsim.com/courses/46)
+        - Time Duration - 18 Hours
+
+        ## Course Summary
+
+        1. **Introduction**-Introduction to the Course.
+
+        2. **Rigid Body Motions**- Rigid Body Motions.
+
+        3. **Kinematics of Nonholonomic robots**- Kinematics of Nonholonomic robots.
+
+        4. **Kinematics of Holonomic robots**-Kinematics of Holonomic robots.
+
+        5. **Kinematic Control**- Kinematic Control
+
+
+
+            ### What You Will Learn
+
+            Upon completing this course, you will acquire advanced skills in:
+
+            - Rigid-Body Motions
+            - Kinematics for Non-Holonomic Robots
+            - Kinematics for Holonomic Robots
+            - Kinematic Control
+
+    - ## Kalman Filters
+
+
+        One of the most common problems in robot navigation is to know where your robot is localized in the environment (known as robot localization). In this field, Kalman Filters are one of the most important tools that we can use.
+
+        With this course, you will understand the importance of Kalman Filters for robotics, and how they work. You will learn the theoretical meaning, but also the Python implementation. Finally, you will also apply the studied filters to mobile robots using ROS.
+
+
+        - [Link to Course](https://app.theconstructsim.com/courses/52)
+        - Time Duration - 10 Hours
+
+        ## Course Summary
+
+        1. **Introduction**-Introduction to the Course.
+
+        2. **Bayesian Filter**- In this Chapter, you will learn about the Bayes Filter. Specifically, you will learn about the following concepts: the building blocks of the Bayes Filter, how sensor noise affects predictions, robot motion under uncertainty, the recursive nature of Bayesian filtering and how to implement a 1-dimensional discrete Bayes Filter.
+
+        3. **Extended Kalman Filter and Unscented Kalman Filter**-
+         In this chapter, you will learn about the Extended Kalman Filter (EKF) and the Unscented Kalman Filter (UKF).Specifically, upon completion of this chapter, you will: understand the underlying logic each filter uses for dealing with non-linear functions, understand how the traditional Kalman Filter is modified in each case, and use the robot_localization package which contains EKF and UKF estimation nodes.
+        
+        4. **Particle Filter**-In this Unit, you will learn about the Particle filter. Specifically, upon completion of this unit, you will: understand the properties of the Particle filter, learn how the main filter steps work, implement the Adaptive Monte Carlo Localization package (AMCL), and use the AMCL package on a robot with rangefinder sensors to estimate its pose in a known map.
+
+        ### What You Will Learn
+        Upon completing this course, you will acquire advanced skills in:
+        - What is a Kalman Filter and why are required
+        - Different types of Kalman Filters and when to apply each one.
+        - Bayesian Filters
+        - One-dimensional Kalman Filters
+        - Multivariate Kalman Filters
+        - Unscendent Kalman Filters
+        - Extended Kalman Filters
+        - Particle Filters
+
+
+
+
+    - ## Basic Maths for Robotics
+        Mathematics are the key to describe everything we can appreciate or interact with in nature. Thus, a robot also needs the abilities to move its mechanisms (locomotion), sense the environment (perception), reason accordingly (cognition), and take actions in the environment (navigation). A good understanding of what geometry stands for, basic linear algebra, calculus and operations with numbers, and some probability theory will be necessary to become a robotics developer.
+        - [Link to Course](https://app.theconstructsim.com/courses/53)
+        - Time Duration - 12 Hours
+
+        ## Course Summary
+
+        1. **Introduction**-Introduction to the Course.
+
+        2. **Linear Algebra (vectors and matrices)**-In this chapter, you are going to get a gentle introduction to the most basic field of mathematics: Linear Algebra. This discipline is a prerequisite to any career you want to follow in mathematics, physics, engineering, etc.
+
+        3. **Calculus**-
+        In this chapter, you are going to be introduced to the basic unit of calculus: a function. In mathematics, this unit provides valuable information on how a variable changes. It may change over time, position, or orientation, but it all can be studied with the properties of functions.
+        
+        4. **Project: Escape of a maze**-
+        In the final project of this course, you are going to help a mobile robot escape of a maze. It consists of making a program that dictates the robot the movements to perform in order to get out of the maze.
+
+        ### What You Will Learn
+        Upon completing this course, you will acquire advanced skills in:
+        - Linear Algebra, where you’ll learn about vectors and matrices
+        - Calculus, where you’ll learn about functions, derivatives, and integrals
+        - Probability, where you’ll learn about random variables and belief distributions
+
+
+    - ## Path Planning Basics
+
+        Path planning is a key component required to solve the larger problem of “autonomous robot navigation”. In this course, you will learn about the most used path planning algorithms.
+        - [Link to Course](https://app.theconstructsim.com/courses/70)
+        - Time Duration - 12 Hours
+
+        ## Course Summary
+
+        1. **Introduction**-A brief introduction to the course contents. It includes a practical demonstration.
+
+        2. **Linear Algebra (vectors and matrices)**-Dijkstra algorithm
+            In this unit, we will get into Dijkstra’s super-famous path planning algorithm and apply it to the motion planning of a mobile robot.
+
+        3. **A-star search algorithm**-This unit focuses on the A* (pronounced "A-star"). A* is one of the most popular choices for pathfinding, because it is only a step up from Dijkstra's, but can often find an optimal path much faster.
+        4. **Rapidly-Exploring Random Tree (RRT)**-This unit covers the fundamentals of the Rapidly-Exploring Random Tree (RRT) algorithm applied to the robotic path planning problem.
+        4. **Artificial Potential Fields**-This unit covers the fundamentals of the artificial potential fields (also known as APF) method applied to the mobile robotic path planning problem.
+        4. **Final Project: Roadmap Based Path Planning**-This last unit is meant to be a bit of an extension lesson about path planning as well as a review of some of the core concepts that you learned throughtout this course. Specifically, you will be applying your knowledge about Dijkstra's shortest path algorithm, only this time, for a robot that is constrained by a road network.
+
+        ### What You Will Learn
+        Upon completing this course, you will acquire advanced skills in:
+        - You will start the course by learning how to develop allegedly one of the most famous algorithms in Computer Science: Dijkstra’s shortest path algorithm.
+
+        - We will continue by introducing Greedy Best-First Search, which evolves the fundamental principles set by Dijkastra to include a heuristic function which in some cases can speed up the search process significantly. As your understanding progresses, you will expand your path planning skills evolving the properties of the algorithm to convert it into the implementation of A* (A -Star).
+        - You will turn to learn a method that takes a completely different approach to path planning, namely RRT.
+        - At the end of this course, you will be well aware of various different approaches that have been developed and applied to successfully solve the global path planning problem. Furthermore, you will be able to understand and explain the differences between them as well as the advantages and drawbacks of each other. Last but not least you will have gained solid practical experience by implementing these methods yourself.
+
+
+    - ## Basic Arm Kinematics
+
+        Robot Kinematics is vital for robot manipulation and locomotion. Knowing how to define the frames of reference and create the Inverse Kinematics equations is key to being able to move the robot end effector to the needed position and orientation.
+
+
+        - [Link to Course](https://app.theconstructsim.com/courses/111)
+        - Time Duration - 10 Hours
+
+        ## Course Summary
+
+        1. **Introduction**-A brief introduction to the course contents. Contains a practical demo.
+
+
+
+        2. **Rigid Body Basics**-Learn the basics of Rigid Body Transformations
+
+
+
+        3. **Denavit Hertenberg**-
+        Learn the Denavit Hartenber Method
+
+        4. **Forward and Inverse Kinematics**-Learn how to use forward and inverse kinematics
+
+        ### What You Will Learn
+        Upon completing this course, you will acquire advanced skills in:
+        - The baiscs of Rigid Body tranformations
+        - The Denavit Hartenberg method for frames generation.
+        - Forwards kinematics
+        - Inverse Kinematics
+
+
+
+    # Navigation
+    - ## ROS Navigation in 5 Days
+
+
+        Navigation is a fundamental aspect of ROS, enabling mobile robots to move autonomously in various applications, from warehouses to household tasks. This comprehensive 5-day course covers key concepts in ROS Navigation, providing practical skills for real robot projects.
+
+        - [Link to Course](https://app.theconstructsim.com/courses/111)
+        - Time Duration - 15 Hours
+
+
+        ## Course Summary
+
+        1. **ROS Navigation Deconstruction**
+        - Overview of ROS Navigation concepts and components.
+
+        2. **Basic Concepts**
+        - Fundamental concepts in mobile robot navigation.
+
+        3. **Map Creation**
+        - Hands-on experience in creating maps from scratch.
+
+        4. **Robot Localization**
+        - Techniques and methods for accurate robot localization.
+
+        5. **Path Planning I**
+        - Introduction to autonomous path planning algorithms.
+
+        6. **Path Planning II**
+        - Advanced path planning strategies and implementation.
+
+            ## What You Will Learn
+
+            1. **Setup ROS Navigation Stack on a Robot**
+            - Implement the ROS Navigation Stack for robot control.
+
+            2. **Building a Map from Zero**
+            - Learn to create a map of the environment using ROS tools.
+
+            3. **Perform Robot Localization**
+            - Understand and apply techniques for accurate robot localization.
+
+            4. **Autonomous Path Planning**
+            - Explore methods for autonomous path planning in ROS.
+
+            5. **Understanding SLAM (Simultaneous Localization and Mapping)**
+            - Delve into SLAM techniques crucial for navigation.
+
+            6. **Obstacle Avoidance**
+            - Learn strategies and algorithms for effective obstacle avoidance.
+
+    - # Advanced Robot Localization with Multiple Sensors
+
+        ## Course Overview
+
+        Enhance the localization accuracy of your robot by leveraging multiple sensors. In this course, we'll delve into the intricacies of using the robot localization package to address complex scenarios involving various sensor inputs. Whether it's IMU, Encoders, or GPS, this course equips you with the skills to master robot localization.
+
+        - [Link to Course](https://app.theconstructsim.com/courses/37)
+        - Time Duration - 12 Hours
+
+
+        ## Course Summary
+
+        1. **Introduction to the Course**
+        - Overview of the course objectives, structure, and the significance of multiple sensor localization.
+
+        2. **Merging Sensor Data**
+        - Practical sessions on using the robot_localization package to merge inputs from various sensors.
+
+        3. **Using an External Localization System**
+        - Integration techniques with an external AMCL Localization system for enhanced precision.
+
+        4. **GPS Navigation**
+        - Explore the integration of GPS data into the robot_localization package for comprehensive robot navigation.
+
+        5. **Mini Project**
+        - Apply the acquired knowledge in a hands-on mini project, reinforcing your skills and understanding.
+
+        ## What You Will Learn
+
+        - **Merge Multiple Sensor Data**
+        - Utilize the robot_localization package to seamlessly merge data from different sensors.
+
+        - **Integration with AMCL Localization System**
+        - Implement the robot_localization package alongside an external AMCL Localization system.
+
+        - **Incorporate GPS Data**
+        - Extend your robot's localization capabilities by integrating GPS data with the robot_localization package.
+
+
+
+
+
+
+- # Perception
+    - ## OpenCV Basics for Robotics
+
+        Relate to the environment, recognize patterns, understand concepts of pixels, colors, borders, detection of objects, detection of people, faces, etc. They make this combination one of extraordinary potential when it comes to obtaining useful information for a robot about the system that surrounds it. A clear example is the use of cameras in robotics, from drones to mobile robots. The use of cameras has been a constant for quite some time, and it is a tool that cannot be underestimated.
+
+
+
+        - [Link to Course](https://app.theconstructsim.com/courses/65)
+        - Time Duration - 18 Hours
+
+        ## Course Summary
+
+        1. **Introduction**- Unit for previewing the contents of the Course.
+
+
+
+        2. **Computer Vision Basics**- cv_bridge, color spaces and color filtering, edge detection, and a brief introduction to convolutionsmorphological transformations.
+
+        3. **Independent joint control**- We focus on controlling only one joint at a time, independent of the rest..
+
+        4. **ARTags (Augmented Reality)**-
+                Learn how to use ARtags (Augmented Reality) in robotics.
+
+        5. **Course Project**- There is a dangerous person in this city, and many possible suspects are close to your robot. You must detect all the people and highlight the dangerous person.
+
+
+
+            ### What You Will Learn
+
+            Upon completing this course, you will acquire advanced skills in:
+
+            - Unit 2: Computer Vision Basics
+            - Unit 3: People related OpenCV functions
+            - Unit 4: Feature Matching
+            - Unit 5: ARTags (Augmented Reality)
+            - Unit 6: Course Project
+
+
+
+        ## ROS Perception in 5 Days
+        Explore the realm of perception in robotics through this comprehensive course utilizing the ROS Framework. Perception is a pivotal aspect of autonomy, and this course is designed to equip you with the skills to implement various perceptual tasks using ROS.
+
+        - [Link to Course](https://app.theconstructsim.com/courses/69)
+        - Time Duration - 25 Hours
+
+        ## Course Summary
+
+        1. **Perception with ROS Intro**
+        - Introduction to the course, outlining objectives, and the role of perception in autonomy.
+
+        2. **Vision Basics Blob Tracking**
+        - In-depth coverage of fundamental concepts, focusing on color blob tracking.
+
+        3. **Vision Basics Follow Line**
+        - Practical sessions on navigating by following floor lines using RGB cameras.
+
+        4. **Surface and Object Recognition**
+        - Techniques for recognizing flat surfaces and identifying objects.
+
+        5. **YOLO 3D Object Location**
+        - Implementation of YOLO for precise 3D object location.
+
+        6. **Face Detection and Tracking**
+        - Learn and apply face detection algorithms, including tracking mechanisms.
+
+        7. **Face Recognition**
+        - Explore advanced face recognition algorithms for distinguishing between different faces.
+
+        8. **People Tracking**
+        - Techniques for tracking individuals through varied environments.
+
+        9. **PhantomX Hexapod Perception Project**
+        - Apply acquired skills in a practical project involving the PhantomX Hexapod.
+
+        ## What You Will Learn
+
+        By the end of this course, you will master the following perceptual tasks:
+
+        1. **Track objects by Color Blobs**
+            - Understand and implement color blob tracking for object tracking.
+
+        2. **Navigate Following Floor Lines**
+            - Develop the ability to navigate by following floor lines using only an RGB camera.
+
+        3. **Detect Human Faces and Track Them**
+            - Learn face detection techniques and implement tracking for human faces.
+
+        4. **Recognize Different Faces**
+            - Explore face recognition algorithms to distinguish between different faces.
+
+        5. **Track a Person Through a 3D Environment**
+            - Gain skills in tracking individuals through a three-dimensional environment.
+
+        6. **Recognize Flat Surfaces like Tables**
+            - Implement recognition of flat surfaces, such as tables, where objects might be placed.
+
+        7. **Recognize Objects and Track in 3D Space with PointCloud Sensors**
+            - Utilize PointCloud sensors for object recognition and tracking in three-dimensional space.
+
+        8. **Use YOLO for Object Recognition and Tracking in 3D Space**
+            - Implement YOLO (You Only Look Once) for advanced object recognition and tracking.
+        
+
+
+    - # ROS Manipulation: Mastering Robot Manipulation with ROS
+
+        ROS Manipulation is the term used to describe robots that manipulate objects in their environment. This course is designed to provide you with the fundamental tools to understand how ROS Manipulation works and guide you in implementing it for any manipulator robot. Whether you're dealing with robotic arms, grippers, or other manipulators, this course will equip you with the essential knowledge.
+
+        - [Link to Course](https://app.theconstructsim.com/courses/66)
+        - Time Duration - 13 Hours
+        ## Course Summary
+        1. **Introduction to the Course**
+        - Overview of the course objectives and structure, setting the stage for learning ROS Manipulation.
+
+        2. **Basic Concepts**
+        - Delve into fundamental concepts that form the basis of ROS Manipulation.
+
+        3. **Motion Planning using Graphical Interfaces Part 1**
+        - Practical sessions on motion planning using graphical interfaces, part 1.
+
+        4. **Motion Planning using Graphical Interfaces Part 2**
+        - Continue the exploration of motion planning, focusing on graphical interfaces in part 2.
+
+        5. **Perform Motion Planning Programmatically**
+        - Learn how to perform motion planning programmatically for enhanced control.
+
+        6. **Grasping**
+        - Dive into the intricacies of grasping, an essential aspect of robot manipulation.
+
+        7. **Project**
+        - Apply your acquired knowledge and skills to a hands-on project, solidifying your understanding.
+
+
+        ## What You Will Learn
+
+        Upon completing this course, you will gain proficiency in the following subjects:
+
+        1. **Basics of ROS Manipulation**
+        - Develop a solid understanding of the foundational concepts behind ROS Manipulation.
+
+        2. **Creating and Configuring a MoveIt! Package**
+        - Learn how to create and configure a MoveIt! package tailored for a manipulator robot.
+
+        3. **Motion Planning**
+        - Perform motion planning efficiently, both through graphical interfaces and programmatically.
+
+        4. **Grasping**
+        - Master the art of robotic grasping, a crucial skill in manipulation tasks.
+
+
+- # Artificial Intelligence
+
+    - ## Using NVIDIA Jetson Nano with ROS
+
+    - Learn how to harness the power of NVIDIA Jetson Nano for deep learning applications, both in simulation and on a physical robot. This course is designed to equip you with the essential skills to set up and utilize NVIDIA Jetson Nano effectively, focusing on deep learning applications in robotics. From robot movement to obstacle avoidance and people tracking, this course covers a range of practical scenarios.
+
+    - [Link to Course](https://app.theconstructsim.com/courses/43)
+    - Time Duration - 25 Hours
+
+
+        ## Course Summary
+
+        1. **Introduction Demo to NVIDIA Jetson Nano Deep Learning**
+        - Overview of the course objectives and a demonstration of NVIDIA Jetson Nano in deep learning scenarios.
+
+        2. **Basics - Move Ignisbot**
+        - Practical sessions covering the basics of moving a robot based on Jetbot hardware.
+
+        3. **Basics - Collision Avoidance with Deep Learning**
+        - Dive into collision avoidance techniques using deep learning.
+
+        4. **Create the People Follow ROS Script**
+        - Learn to script a ROS (Robot Operating System) module for people following.
+
+        5. **Ignisbot Mini Project**
+        - Apply your acquired knowledge to a mini project involving Ignisbot, solidifying your skills in deep learning with Jetson Nano.
+
+                
+            ## What You Will Learn
+
+            By the end of this course, you will have mastered the following skills:
+
+            1. **Basics of NVIDIA Jetson Nano Setup**
+            - Gain a comprehensive understanding of setting up NVIDIA Jetson Nano for deep learning applications.
+
+            2. **Robot Movement with Jetbot**
+            - Learn how to control a robot based on Jetbot hardware.
+
+            3. **Obstacle Avoidance Through Deep Learning**
+            - Train a robot to perform obstacle avoidance using deep learning techniques.
+
+            4. **People Tracking and Following**
+            - Explore the methods to track and follow people using Jetson Nano.
+
+            5. **Execution of GPU-CUDA Code on CPU Systems**
+            - Understand how to run code designed for GPU-CUDA hardware on CPU systems.
+
+            6. **Build IgnisBot - Your Deep Learning Robot**
+            - Follow practical steps to build IgnisBot, a robot designed for deep learning applications with Jetson Nano hardware.
+
+
+
+    - ## Deep Learning with Keras: Environment Randomization
+
+
+
+        Welcome to this micro course! This course is designed for individuals eager to explore deep learning using Keras. The key focus is on adopting the innovative approach of Environment Randomization. This method leverages the flexibility of environment generation in simulations to train a robot with remarkable robustness under various lighting conditions. It facilitates a smooth and fast transition from simulated learning to real-world scenarios. Through hands-on experience, you'll master the art of training a robot for 3D object recognition using random environments.
+
+        Keras will play a central role in this system, and you'll acquire essential skills, from generating training data to converting it into a database, training a MobileNetV2 model, retraining it, and making predictions. The final project involves training a garbage-picking robot, covering the entire process from training data generation to the implementation of the garbage detection and picking program. Immerse yourself in the fascinating world of Deep Learning with Keras right now!
+
+
+    - [Link to Course](https://app.theconstructsim.com/courses/35)
+    - Time Duration - 15 Hours
+
+        ## Course Summary
+
+        1. **Quick Demo**
+        - An overview of the course objectives and a quick demonstration of the key concepts.
+
+        2. **Step By Step Simple Guide**
+        - A systematic guide to understanding and implementing deep learning with Keras.
+
+        3. **Exercises For XY Motion Spam**
+        - Practical exercises focusing on XY motion spam for hands-on learning.
+
+        4. **Exercises for Spam and a Distractor**
+        - Further exercises incorporating distractors for enhanced learning.
+
+        5. **Exercises with Distractor and Random Env**
+        - Advanced exercises involving distractors and random environment generation.
+
+        6. **Microproject: Garbage Collector**
+        - The culmination of your learning journey, where you apply your skills to train a garbage-picking robot.
+
+
+            ## What You Will Learn
+
+            By the end of this course, you will have gained expertise in the following areas:
+
+            1. **Basic Usage of Keras**
+            - Learn the fundamentals of using Keras for deep learning.
+
+            2. **Training a Deep Neural Network with Gazebo Simulation**
+            - Explore the process of training a deep neural network using Gazebo Simulation.
+
+            3. **Working with ROS + Gazebo + Keras in Tandem**
+            - Understand how to integrate ROS, Gazebo, and Keras for seamless collaboration.
+
+            4. **Random Environment Generation in Gazebo**
+            - Dive into the mechanics of random environment generation in Gazebo simulations.
+
+
+
+    - ## Autonomous Car Programming with ROS
+
+        Welcome to the Autonomous Car Programming with ROS course! The primary objective of this course is to equip you with the fundamental knowledge necessary to program autonomous cars, specifically targeting a Level 3 autonomy, known as conditional automation. At this level, tasks are expected to be performed autonomously, with the provision for human intervention whenever necessary.
+
+    - [Link to Course](https://app.theconstructsim.com/courses/7)
+    - Time Duration - 8 Hours
+
+
+        ## Course Summary
+
+        1. **Unit 0: Introduction**
+        - An introduction to the course, outlining its goals and setting the context for autonomous car programming.
+
+        2. **Unit 1: Sensors**
+        - Comprehensive coverage of sensors crucial for autonomous cars and hands-on experience accessing them through ROS.
+
+        3. **Unit 2: GPS Navigation**
+        - In-depth exploration of autonomous navigation using GPS systems within the ROS framework.
+
+        4. **Unit 3: Obstacles and Security**
+        - Practical insights into creating obstacle avoidance strategies for enhanced security in autonomous driving.
+
+        5. **Unit 4: CAN-Bus**
+        - Understanding and working with the CAN-Bus interface for seamless communication in autonomous cars.
+
+        6. **Unit 5: Microproject**
+        - Apply the acquired knowledge in a hands-on microproject, consolidating your skills.
+
+        7. **Final Recommendations**
+        - Concluding remarks and guidance for your continued learning journey in autonomous car programming.
+
+            ## What You Will Learn
+
+            In this course, you will delve into the essentials of autonomous car control using ROS. The key learning objectives include:
+
+            1. **Sensors for Autonomous Cars**
+            - Understand the sensors required for an autonomous car and learn how to access them using ROS.
+
+            2. **GPS Navigation for Autonomous Cars**
+            - Explore autonomous navigation using GPS systems in the context of ROS.
+
+            3. **Obstacle Avoidance**
+            - Develop skills in creating obstacle avoidance mechanisms for autonomous cars.
+
+            4. **Interface ROS with DBW-Capable Cars**
+            - Learn how to interface ROS with a car that follows the DBW (Drive By Wire) interface.
+
+
+    ## Machine Learning for Robotics
+
+
+
+    Welcome to the Machine Learning for Robotics course! This course is designed to provide you with a comprehensive understanding of machine learning concepts as they apply to robotics. By delving into fundamental principles of artificial intelligence, you'll gain insights into how robots think and make independent decisions. This course will also empower you to enhance robots' intelligence and collaboration abilities, all while advancing your skills in Python programming.
+    - [Link to Course](https://app.theconstructsim.com/courses/47)
+    - Time Duration - 16 Hours
+
+
+    ## Course Summary
+
+    1. **Introduction to the Course**
+    - Overview of the course objectives and structure.
+
+    2. **Linear and Logistic Regression with Regularization**
+    - In-depth coverage of linear regression, logistic regression, and regularization techniques.
+
+    3. **Supervised Learning with Neural Networks**
+    - Understanding and implementing supervised learning using neural networks and backpropagation.
+
+    4. **Unsupervised Learning with K-means Algorithm**
+    - Practical insights into unsupervised learning with a focus on the k-means algorithm.
+
+    5. **Dimensionality Reduction with Principal Components Analysis (PCA)**
+    - Learn how to use PCA for reducing dimensionality in machine learning.
+
+    6. **Course Project**
+    - Apply the concepts learned throughout the course in a hands-on project.
+
+
+    ## What You Will Learn
+
+    1. **Unit 2: Linear Regression**
+    - Explore linear regression with one and multiple variables, logistic regression, and regularization techniques.
+
+    2. **Unit 3: Supervised Learning**
+    - Dive into supervised learning, covering neural networks and learning using backpropagation.
+
+    3. **Unit 4: Unsupervised Learning**
+    - Understand unsupervised learning through the k-means algorithm.
+
+    4. **Unit 5: Dimensionality Reduction**
+    - Explore Principal Components Analysis (PCA) for dimensionality reduction.
+
+    5. **Unit 6: Course Project**
+    - Apply your newfound knowledge in a hands-on course project.
+
+
+    - ## OpenAI with ROS - Mastering Robot Learning
+    Welcome to the "OpenAI with ROS" course! This course is designed to teach you how to effectively use the OpenAI ROS structure developed by The Construct. By leveraging this structure, you'll be able to seamlessly develop for OpenAI with ROS in an easier and more efficient way.
+
+    - [Link to Course](https://app.theconstructsim.com/courses/47)
+    - Time Duration - 16 Hours
+
+    ## Course Summary
+
+    1. **Introduction to the Course**
+            - Overview of the course objectives and structure.
+
+    2. **Exploring the OpenAI Structure: CartPole**
+            - In-depth exploration of the OpenAI ROS structure applied to the CartPole environment.
+
+    3. **Exploring the OpenAI Structure: RoboCube**
+            - Detailed exploration of the OpenAI ROS structure applied to the RoboCube environment in multiple parts.
+
+    4. **Save and Load the Learned Policy**
+            - Learn how to save and load the policies learned during training.
+
+    5. **Modifying the Learning Algorithm**
+            - Modifications to the learning algorithm for both CartPole and RoboCube environments.
+
+    6. **Training a Fetch Robot**
+            - Step-by-step guide to setting up and training a Fetch Robot using the HER algorithm.
+
+    7. **Project: Training a Hopper Robot**
+            - Apply the knowledge gained throughout the course in a hands-on project involving training a Hopper robot.
+
+
+
+        ## What You Will Learn
+
+        1. **Basic Concepts of OpenAI ROS Structure**
+            - Gain an understanding of the foundational concepts behind the OpenAI ROS structure.
+
+        2. **Set Up for CartPole Environment**
+            - Configure the OpenAI ROS structure for a CartPole environment.
+            - Train the CartPole using the qlearn algorithm.
+
+        3. **Set Up for Moving Cube Environment**
+            - Configure the OpenAI ROS structure for a Moving Cube environment.
+            - Train the Cube using the qlearn algorithm.
+            - Explore the structure in multiple parts.
+
+        4. **Modifying Learning Algorithm: DeepQ**
+            - Dive into modifying the learning algorithm, focusing on DeepQ.
+
+        5. **Set Up for Fetch Robot Environment**
+            - Configure the OpenAI ROS structure for a Fetch Robot environment.
+            - Train the Fetch robot using the HER algorithm from OpenAI baselines.
+
+    - ## Reinforcement Learning with ROS
+
+        Welcome to the "Reinforcement Learning with ROS" course! This course offers a state-of-the-art opportunity to familiarize yourself with the general concept of reinforcement learning and deploy theory into practice. You'll engage in coding exercises and simulations in ROS, gaining hands-on experience in applying reinforcement learning principles.
+
+
+    - [Link to Course](https://app.theconstructsim.com/courses/68)
+    - Time Duration - 16 Hours
+        ## Course Summary
+
+        1. **Introduction to the Course**
+        - Overview of the course objectives and structure.
+
+        2. **The Reinforcement Learning Problem**
+        - Deep dive into the core concepts of the reinforcement learning problem.
+
+        3. **Dynamic Programming Problem**
+        - Explore dynamic programming and its role in reinforcement learning.
+
+        4. **Monte Carlo Methods**
+        - Understanding and application of Monte Carlo methods.
+
+        5. **Temporal-Difference Methods**
+        - Comprehensive coverage of temporal-difference methods.
+
+        6. **Course Project**
+        - Apply the acquired knowledge in a hands-on course project.
+
+            ## What You Will Learn
+
+            1. **Reinforcement Learning Fundamentals**
+            - Understand the reinforcement learning problem.
+            - Explore the multi-armed bandit problem.
+            - Learn about State-Value and Action-Value functions.
+            - Dive into Markov Decision Processes.
+            - Understand the Bellman Equation.
+
+            2. **Dynamic Programming**
+            - Explore dynamic programming techniques in reinforcement learning.
+
+            3. **Monte Carlo Methods**
+            - Gain insights into Monte Carlo methods and their application in reinforcement learning.
+
+            4. **Temporal-Difference Methods**
+            - Learn about temporal-difference methods and their significance in reinforcement learning.
 
 
 ****--------******------------------
@@ -600,31 +1308,13 @@ Welcome to the Robotics and ROS Course Repository! This repository contains cour
 -----------------*************************************************--------------------------------
 
 
-### 3. Basic ROS
-- **Overview:** An entry-level course focusing on the basics of ROS2, the Robot Operating System.
-- **Materials:** [Basic ROS2 Course Materials](link)
+
+
+)
 
 
 
-### 4. Intermediate ROS2
-- **Overview:** An intermediate-level course expanding on ROS2 concepts and functionalities.
-- **Materials:** [Intermediate ROS2 Course Materials](link)
 
-### 5. Robotics Theory
-- **Overview:** A theoretical course exploring key concepts and principles in robotics.
-- **Materials:** [Robotics Theory Course Materials](link)
-
-### 6. Navigation
-- **Overview:** Deep dive into robot navigation techniques and algorithms.
-- **Materials:** [Navigation Course Materials](link)
-
-### 7. Perception
-- **Overview:** Understanding how robots perceive and interpret their environment.
-- **Materials:** [Perception Course Materials](link)
-
-### 8. Manipulation
-- **Overview:** Exploring robotic manipulation and grasping techniques.
-- **Materials:** [Manipulation Course Materials](link)
 
 ### 9. Robot Creation
 - **Overview:** Hands-on course on designing and building robots.
