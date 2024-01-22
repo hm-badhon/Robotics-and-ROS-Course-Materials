@@ -1294,6 +1294,110 @@ Welcome to the Robotics and ROS Course Repository! This repository contains cour
             4. **Temporal-Difference Methods**
             - Learn about temporal-difference methods and their significance in reinforcement learning.
 
+
+
+
+    - ## Deep Learning Fundamentals with ROS
+        Welcome to the "Deep Learning Fundamentals with ROS" course! Deep Learning is a powerful technique that addresses complex problems, previously deemed insurmountable. In this course, we will leverage your background in mathematics, statistics, and computer programming to delve into Neural Networks, utilizing Python, Keras, and Tensorflow. A basic understanding of ROS functionalities is assumed.
+    capabilities.
+
+    - [Link to Course](https://app.theconstructsim.com/courses/71)
+    - Time Duration - 21 Hours
+
+        ## Course Summary
+
+        1. **Introduction to the Course**
+        - Overview of the course objectives, prerequisites, and structure.
+
+        2. **Deep Learning Basics**
+        - Explore the foundational concepts of neural networks.
+
+        3. **Programming an L-layer Neural Network in Python**
+        - Hands-on experience in implementing an L-layer neural network.
+
+        4. **Hyperparameter Tuning**
+        - Understand and optimize the hyperparameters of neural networks.
+
+        5. **Convolutional Neural Networks (CNN)**
+        - Explore CNN and its applications in Computer Vision.
+
+        6. **Final Project**
+        - Apply your knowledge in a final project, demonstrating proficiency in Deep Learning with ROS.
+
+
+
+            ## What You Will Learn
+
+            1. **Deep Learning Basics**
+            - Explore the key components of a neural network: neurons, weights, biases, activation functions, loss, and accuracy.
+            - Tackle challenges in unsupervised learning: regression and classification algorithms.
+
+            2. **Programming an L-layer Neural Network in Python**
+            - Apply your knowledge to program an L-layer neural network, understanding its structure and functionalities.
+
+            3. **Hyperparameter Tuning**
+            - Dive into the hyperparameters governing neural network behavior.
+            - Learn optimization techniques to improve algorithm results.
+
+            4. **Convolutional Neural Networks (CNN)**
+            - Understand CNN, a powerful tool for solving Computer Vision problems.
+            - Explore neurons, mathematical operations, and feature extraction from images.
+
+            5. **Final Project**
+            - Apply your learnings in a hands-on final project, showcasing your skills in Deep Learning with ROS.
+
+
+    - ## Generative AI for Robotics
+
+        Welcome to the "Generative AI for Robotics" course! As the next step after the Deep Learning revolution, Generative AI empowers systems to create new behaviors, movements, information, and data based on their training. This course is designed for engineers looking to master Generative AI skills to enhance robotic capabilities.
+
+    - [Link to Course](https://app.theconstructsim.com/courses/165)
+    - Time Duration - 24 Hours
+
+        ## Course Summary
+
+        1. **Intro**
+        - Overview of the course objectives, prerequisites, and structure.
+
+        2. **Foundations**
+        - Lay the groundwork for understanding Generative AI concepts.
+
+        3. **Generative AI Models Basics**
+        - Explore fundamental Generative AI model principles.
+
+        4. **Generative AI for Robot Actions**
+        - Implement Generative AI to empower robots with intelligent actions.
+
+        5. **Vision Language Models**
+        - Advance into vision and language models for enhanced robotic perception.
+
+        6. **Navigation with AI**
+        - Apply Generative AI to enable autonomous navigation for robots.
+
+            ## What You Will Learn
+
+            1. **Foundations**
+            - Build a strong foundation in Generative AI concepts.
+            - Understand the key principles behind Generative AI models.
+
+            2. **Generative AI Models Basics**
+            - Explore the basics of Generative AI models.
+            - Learn how to apply Generative AI techniques to robotics.
+
+            3. **Generative AI for Robot Actions**
+            - Implement Generative AI for enabling robots to generate actions.
+            - Understand how robots can respond intelligently to commands.
+
+            4. **Vision Language Models**
+            - Dive into advanced Generative AI applications, focusing on vision and language models.
+            - Enhance robots' ability to understand and interact with the world.
+
+            5. **Navigation with AI**
+            - Apply Generative AI to robotic navigation.
+            - Enable robots to navigate autonomously based on their understanding of the environment.
+
+
+
 ## Author
 
 - **H.M. Mehedi Hasan (Badhon)**
@@ -1304,6 +1408,3 @@ Welcome to the Robotics and ROS Course Repository! This repository contains cour
   - [LinkedIn Profile](https://bd.linkedin.com/in/h-m-mehedi-hasan-575563159)
   - [Email](mailto:h.m.badhoneee@gmail.com)
   - Associate Robotics Engineer, NSL
-    
-
-
